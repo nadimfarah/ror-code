@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
 gem 'protected_attributes'
+gem 'simple_form'
 
 group :production do
   gem 'pg'
