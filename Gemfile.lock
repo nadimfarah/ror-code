@@ -14,16 +14,16 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
-    activemodel (3.2.13)
+    activemodel (5.0)
       activesupport (= 3.2.13)
       builder (~> 3.0.0)
     activerecord (3.2.13)
-      activemodel (= 3.2.13)
+      activemodel (= 5.0)
       activesupport (= 3.2.13)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
     activeresource (3.2.13)
-      activemodel (= 3.2.13)
+      activemodel (= 5.0)
       activesupport (= 3.2.13)
     activesupport (3.2.13)
       i18n (= 0.6.1)
@@ -118,7 +118,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  activemodel (~> 3.2.13)
+  activemodel (~> 5.0)
   bootstrap-sass (~> 2.3.2.1)
   coffee-rails (~> 3.2.1)
   devise
