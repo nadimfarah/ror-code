@@ -5,7 +5,6 @@ gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
-
 gem 'protected_attributes'
 
 group :production do
