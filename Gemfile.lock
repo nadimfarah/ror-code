@@ -5,7 +5,7 @@ GEM
       actionpack (= 3.2.13)
       mail (~> 2.5.3)
     actionpack (3.2.13)
-      activemodel (= 3.2.13)
+      activemodel (= 5.0)
       activesupport (= 3.2.13)
       builder (~> 3.0.0)
       erubis (~> 2.7.0)
@@ -62,7 +62,6 @@ GEM
     mime-types (1.25)
     multi_json (1.8.0)
     orm_adapter (0.4.0)
-    pg (0.14.1)
     pg (0.14.1-x86-mingw32)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -119,6 +118,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  activemodel (~> 3.2.13)
   bootstrap-sass (~> 2.3.2.1)
   coffee-rails (~> 3.2.1)
   devise

@@ -1,10 +1,12 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.13'
 
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
+gem 'activemodel', '~> 5.0'
+gem 'protected_attributes'
 
 group :production do
   gem 'pg'
